@@ -1,5 +1,7 @@
 # AngularMaterialTable
 
+Adopted from https://www.zeptobook.com/angular-material-table-with-paging-sorting-and-filtering/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
 ## Development server
