@@ -30,4 +30,12 @@ export class AppComponent implements OnInit {
     this.datasource.paginator = this.paginator;
     this.datasource.sort = this.sort;
   }
+
+  applyFilter(filterValue: string) {
+    this.datasource.filter = filterValue.trim().toLocaleLowerCase();
+
+    if (this.datasource.paginator) {
+      this.datasource.paginator.firstPage();
+    }
+  }
 }
